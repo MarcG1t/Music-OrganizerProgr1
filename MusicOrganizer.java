@@ -91,7 +91,7 @@ public class MusicOrganizer
             position++;
         }
        }
-        public void listMatching(String searchString) {
+        public boolean listMatching(String searchString) {
             boolean found = false;
             for(String filename : files) {
                 if(filename.contains(searchString)) {
