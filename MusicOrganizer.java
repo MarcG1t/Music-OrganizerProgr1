@@ -91,13 +91,14 @@ public class MusicOrganizer
             position++;
         }
        }
-        public void listWithIndex() {
-            int position=0;
-            for(String filename:files) {
-                System.out.println(position+ ":"+filename);
-                position++;
+        public void listMatching(String searchString) {
+            for(String filename : files) {
+                if(filename.contains(searchString)) {
+                    System.out.println(filename);
+                }
             }
-        }
-}
-        
+        }    else    {
+     return false;
+                  }
+}  
  
