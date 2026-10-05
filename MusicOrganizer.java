@@ -91,4 +91,9 @@ public class MusicOrganizer
             position++;
         }
        }
-}
+        public void listWithIndex(String Burning man.mp3, Livid.mp3, Maverick.mp3) {
+            this.Burning man.mp3;
+            this.Livid.mp3;
+            this.Maverick.mp3;
+        }
+ 
