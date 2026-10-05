@@ -83,5 +83,6 @@ public class MusicOrganizer
         if(index >= 0 && index < files.size()) {
             files.remove(index);
         }
-    }
-}
+    }    public void listAllFiles() 
+    
+
