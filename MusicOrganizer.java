@@ -83,6 +83,10 @@ public class MusicOrganizer
         if(index >= 0 && index < files.size()) {
             files.remove(index);
         }
-    }    public void listAllFiles() 
-    
-
+    }
+        public void listAllFiles() {
+        for( String filename: file) {
+            System.out.println(file.get(0));
+        } 
+       }
+}
